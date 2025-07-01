@@ -13,9 +13,11 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- This script will load your React app -->
-    <script type="module" src="/src/index.js"></script>
-    <!-- Tailwind CSS CDN - for local development/preview, though build process handles it -->
+    <!-- The React build process will automatically inject script tags here -->
+    <!-- DO NOT manually add script tags for your React components (e.g., /src/index.js) -->
+
+    <!-- Tailwind CSS CDN - This is kept for simplicity. In a production React setup,
+         Tailwind is usually processed differently, but this works for direct use. -->
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
 </html>
